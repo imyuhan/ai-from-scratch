@@ -63,3 +63,11 @@ catalog.json
 site/sitemap.xml
 site/llms.txt
 site/build-meta.js
+
+# --- my-progress learning notes (Phase 0 / Lesson 02 Git exercise) ---
+# Added on 2026-06-08. The course repo already ignores .pt / .pth /
+# .safetensors above (model checkpoints). This block is for personal
+# scratch space while working through the lessons.
+my-progress-*.tmp
+progress-*.log
+.notes-cache/

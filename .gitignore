@@ -71,3 +71,8 @@ site/build-meta.js
 my-progress-*.tmp
 progress-*.log
 .notes-cache/
+# Practice notebooks — local scratch, never committed (added 2026-06-25).
+# Upstream course never ships .ipynb files; lesson deliverables go in
+# outputs/ as .md skill writeups.
+*.ipynb
+.ipynb_checkpoints/

@@ -8,13 +8,12 @@
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": "explicit"
+            "source.organizeImports": "explicit",
+            "source.fixAll.ruff": "explicit"
         }
     },
 
     "black-formatter.args": ["--line-length", "88"],
-
-    "ruff.lint.run": "onSave",
 
     "editor.rulers": [88, 120],
     "editor.tabSize": 4,
